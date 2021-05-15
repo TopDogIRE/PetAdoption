@@ -1,0 +1,2 @@
+[![CircleCI](https://circleci.com/gh/TopDogIRE/PetAdoption.svg?style=svg)](https://app.circleci.com/pipelines/github/TopDogIRE/PetAdoption)
+[![codecov](https://codecov.io/gh/TopDogIRE/PetAdoption/branch/master/graph/badge.svg?token=2RKQCT6FJH)](https://codecov.io/gh/TopDogIRE/PetAdoption)
