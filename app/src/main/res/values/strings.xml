@@ -15,4 +15,6 @@
     <string name="dog_city">City of Dog</string>
     <string name="imageURL">Image of Dog(URL)</string>
     <string name="post_dog">Post</string>
+    <string name="Post">Post your Dog</string>
+    <string name="cancel">Cancel</string>
 </resources>

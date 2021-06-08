@@ -32,7 +32,7 @@ public class MainActivityTest {
         onView(withId(R.id.user)).perform(typeText("JeffW"));
         onView(withId(R.id.pass)).perform(typeText("password"));
         onView(withId(R.id.gotoSignIn)).perform(click());
-        onView(anyOf(withId(R.id.adoptions_view))).check(matches(isDisplayed()));
+        onView(anyOf(withId(R.id.framecat))).check(matches(isDisplayed()));
 
     }
     @Test

@@ -36,7 +36,7 @@ public class SignupTest {
 
         onView(withId(R.id.goToSecondActivity)).perform(click());
 
-        onView(anyOf(withId(R.id.adoptions_view))).check(matches(isDisplayed()));
+        onView(anyOf(withId(R.id.framecat))).check(matches(isDisplayed()));
 
     }
     @Test
