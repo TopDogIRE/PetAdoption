@@ -48,7 +48,7 @@ public class AdoptionsDataModel {
         //info.put("liked", matches.liked);
         info.put("breed",pets.breed);
         info.put("age",pets.age);
-        info.put("description",pets.breed);
+        info.put("description",pets.peteDes);
         info.put("city",pets.peteLoc);
 
         dogsref.update(info);
