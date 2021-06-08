@@ -41,6 +41,13 @@ public class NewPostActivity extends AppCompatActivity {
                     intent.putExtra("Name",dogName.getText().toString());
                     startActivity(intent);
 
+                    dogName.setText("");
+                    dogDes.setText("");
+                    dogAge.setText("");
+                    imgURL.setText("");
+                    dogCity.setText("");
+                    dogBreed.setText("");
+
                 }
                 else{
                     Toast.makeText(getApplicationContext(),"Fields cannot be blank",Toast.LENGTH_SHORT).show();
