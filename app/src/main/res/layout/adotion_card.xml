@@ -9,6 +9,7 @@
     android:padding="22dp"
     android:paddingBottom="28dp"
     android:layout_marginBottom="20dp"
+
     xmlns:android="http://schemas.android.com/apk/res/android">
 
         <ImageView
@@ -19,6 +20,7 @@
             android:adjustViewBounds="true"
             android:src="@drawable/ic_launcher_background"
             android:layout_gravity="center_horizontal"
+
             />
 
         <LinearLayout
@@ -33,6 +35,7 @@
                 android:layout_margin="10dp"
                 android:text="mach_name"
                 android:textColor="@color/black"
+                android:gravity="center"
                 android:textSize="20dp"
                 android:textStyle="bold"
                 android:textFontWeight="2"/>

@@ -8,8 +8,11 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 public class AdotionsCardViewHolder extends RecyclerView.ViewHolder {
-    public TextView petName;
-    public ImageView petImg;
+    TextView petName;
+    ImageView petImg;
+
+
+
 
     public AdotionsCardViewHolder(@NonNull View itemView) {
         super(itemView);
@@ -17,4 +20,7 @@ public class AdotionsCardViewHolder extends RecyclerView.ViewHolder {
         petImg=itemView.findViewById(R.id.petImgView);
 
     }
+
+
+
 }
