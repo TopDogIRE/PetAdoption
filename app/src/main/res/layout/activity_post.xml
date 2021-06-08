@@ -11,12 +11,27 @@
         android:layout_height="wrap_content"
         tools:context=".MainActivity"
         android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Post"
+            android:textSize="40dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            />
 
         <EditText
             android:id="@+id/dogName"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:hint="@string/dog_name"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dog_age"
             android:layout_gravity="center"
             />
         <EditText
@@ -48,27 +63,22 @@
             android:hint="@string/imageURL"
             android:layout_gravity="center"
             />
-
-
-
         <Button
-            android:id="@+id/gotoSignIn"
+            android:id="@+id/postDog"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/signn"
+            android:onClick="postDog"
+            android:text="@string/post_dog"
+            android:layout_gravity="center"
+            />
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="backToAdoptions"
+            android:text="@string/cancel"
             android:layout_gravity="center"
             />
 
-        <Button
-            android:id="@+id/gotoSignUp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:onClick="goToSignUp"
-            android:text="@string/signu"
-            android:layout_gravity="center"
-
-            />
     </LinearLayout>
-
-
 </ScrollView>
