@@ -21,4 +21,9 @@ public void goToSignUp(View view) {
 
     startActivity(intent);
 }
+public void goToAdoptions(View view) {
+        Intent intent = new Intent(MainActivity.this, Adoptions.class);
+
+        startActivity(intent);
+    }
 }
