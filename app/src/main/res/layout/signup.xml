@@ -39,7 +39,7 @@
         android:id="@+id/goToSecondActivity"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="goToSubmission"
+        android:onClick="goToAdoptions"
         android:text="@string/signu"
         android:layout_gravity="center"
         />
