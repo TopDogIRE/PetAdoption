@@ -17,4 +17,5 @@
     <string name="post_dog">Post</string>
     <string name="Post">Post your Dog</string>
     <string name="cancel">Cancel</string>
+    <string name="back_to_home">Back To Home</string>
 </resources>

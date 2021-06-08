@@ -64,7 +64,7 @@
             android:layout_gravity="center"
             />
         <Button
-            android:id="@+id/postDog"
+            android:id="@+id/postButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="postDog"
@@ -72,7 +72,7 @@
             android:layout_gravity="center"
             />
         <Button
-            android:id="@+id/cancel"
+            android:id="@+id/cancelButton"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:onClick="backToAdoptions"

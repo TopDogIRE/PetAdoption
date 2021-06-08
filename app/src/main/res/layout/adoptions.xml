@@ -2,9 +2,8 @@
 
 
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-android:id="@+id/framecat"
+    android:id="@+id/framecat"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".Adoptions">
@@ -22,12 +21,13 @@ android:id="@+id/framecat"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:text="Dogs for adoption"
+            android:textAlignment="center"
             android:textColor="@color/common_google_signin_btn_text_dark_default"
-            android:textSize="20dp"
             android:textFontWeight="3"
-            android:textAlignment="center"/>
+            android:textSize="20dp" />
 
         <Button
+            android:id="@+id/postButton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"

@@ -33,6 +33,8 @@ android {
 
 dependencies {
     implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
     implementation 'androidx.room:room-runtime:2.2.5'
     annotationProcessor 'androidx.room:room-compiler:2.2.5'
     androidTestImplementation 'androidx.room:room-testing:2.2.5'
