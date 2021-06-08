@@ -7,4 +7,12 @@
     <string name="fullname">Enter your name</string>
     <string name="email">Enter your email</string>
     <string name="yes">whatever you said yes</string>
+    <string name="dog_name">Dogs Name</string>
+    <string name="Breed">Dog Breed</string>
+    <string name="dog_age">Age of Dog</string>
+    <string name="dog_gender">Gender of Dog</string>
+    <string name="description_of_dog">Description</string>
+    <string name="dog_city">City of Dog</string>
+    <string name="imageURL">Image of Dog(URL)</string>
+    <string name="post_dog">Post</string>
 </resources>
