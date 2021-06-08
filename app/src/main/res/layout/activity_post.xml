@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/dogName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dog_name"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/breed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/Breed"
+            android:layout_gravity="center"
+            />
+
+        <EditText
+            android:id="@+id/description"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/description_of_dog"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/dog_city"
+            android:layout_gravity="center"
+            />
+        <EditText
+            android:id="@+id/img"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/imageURL"
+            android:layout_gravity="center"
+            />
+
+
+
+        <Button
+            android:id="@+id/gotoSignIn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/signn"
+            android:layout_gravity="center"
+            />
+
+        <Button
+            android:id="@+id/gotoSignUp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="goToSignUp"
+            android:text="@string/signu"
+            android:layout_gravity="center"
+
+            />
+    </LinearLayout>
+
+
+</ScrollView>
